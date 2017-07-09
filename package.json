@@ -1,0 +1,22 @@
+{
+  "name": "shortest",
+  "version": "1.0.0",
+  "description": "To find the shortest path using Dijkstra method",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests"
+  },
+  "keywords": [
+    "shortest",
+    "path",
+    "graph",
+    "dijkstra"
+  ],
+  "author": "Pisut Sritrakulchai",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "joi": "^10.6.0",
+    "mocha": "^3.4.2"
+  }
+}
