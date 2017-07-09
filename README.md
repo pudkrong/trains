@@ -1,4 +1,4 @@
-# Train
+# Graph
 
 ### Prerequisition
 Node version 6.5.0 or later
