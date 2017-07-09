@@ -49,7 +49,7 @@ Graph object has main functions as following
 `getAllPathsWithExactStops` will use internal function `_findAllPathsWithMaxStops` to get all routes, then filter onces with have the same given stops.
 
 ### getShortestPath (start, destination)
-`getAllPathsWithExactStops` will use internal function `_findAllPathsWithMaxStops` to get all routes, then find one with less cost.
+`getAllPathsWithExactStops` will use internal function `_findAllPathsWithMaxStops` to get all routes. However, the tricky part is the max stops to pass in. The worst case is the stops will be the same as number of nodes.
 
 ### getAllPathsLessThanMaxDistance (start, destination, max)
 We can use `_findAllPathsWithMaxStops` to find all routes. However, the tricky part is the max stops to pass in. We can calculate based on the assumption that the max stop will be the max distance deviding by the shortest path between 2 towns.
